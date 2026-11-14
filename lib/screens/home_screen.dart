@@ -3,6 +3,7 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:torch_light/torch_light.dart';
 import 'feed_screen.dart';
 import 'admin_screen.dart';
+import 'sos_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
