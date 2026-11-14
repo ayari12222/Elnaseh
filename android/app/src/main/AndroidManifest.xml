@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.elnaseh">
+    package="com.example.elnaseh_app">
 
     <!-- أذونات الإنترنت -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -23,7 +23,7 @@
         android:label="Elnaseh"
         android:icon="@mipmap/ic_launcher">
         
-        <!-- هذا هو السطر الناقص الذي كان يسبب الخطأ -->
+        <!-- هذا السطر هو المفتاح لحل مشكلة v1 embedding -->
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
