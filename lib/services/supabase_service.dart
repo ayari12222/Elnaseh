@@ -1,10 +1,11 @@
-import 'dart:convert';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 class SupabaseService {
-  // سنضع هنا رابط مشروعك في Supabase لاحقاً
-  static const String supabaseUrl = 'YOUR_SUPABASE_URL';
-  static const String supabaseAnonKey = 'YOUR_SUPABASE_ANON_KEY';
+  // الرابط الخاص بمشروعك
+  static const String supabaseUrl = 'https://gilgyoujxoodrceinaqv.supabase.co';
+  
+  // المفتاح العام (Publishable Key)
+  static const String supabaseAnonKey = 'sb_publishable_5bjDTI-VLxxlDGwdSaUxCw_RJ65315C';
 
   static Future<void> initialize() async {
     await Supabase.initialize(
